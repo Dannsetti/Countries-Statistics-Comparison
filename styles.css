@@ -1,0 +1,115 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+
+/******* Header **********/
+
+h1 {
+  font-size: 3em;
+  padding: 1em; 
+  font-style: italic;
+  color: #008b8b;
+}
+
+/******* Body **********/
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+  
+}
+
+
+form {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+#country_selection {
+  display: inline-flex;
+}
+
+#country_selection label{
+  padding: 2em;
+}
+
+#category_selection {
+    display: inline-flex;
+}
+
+#category_selection label {
+  padding: 2em;
+}
+
+#button {
+  padding: 30px;
+}
+
+#button input {
+  width: 200px;
+  font-size: 50px;
+}
+
+
+table, td {
+  margin:10px 0;
+  border:solid 3px #333;
+  padding:2px 4px;
+  font:15px Verdana;
+  height: auto;
+  width: auto;
+  min-width: 45em;
+  max-width: 90em;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+
+table tr:hover {
+  background-color: #41caf4;
+}
+
+table th {
+  padding-bottom: 10px;
+  min-width: 15em;
+  text-align: center;
+  
+}
+
+
+#chart-container {
+  margin-bottom: 100px;
+}
+
+#back a {
+
+  color: #6600ff;
+}
+
+/******* Footer **********/
+
+footer {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 50px; 
+   
+}
